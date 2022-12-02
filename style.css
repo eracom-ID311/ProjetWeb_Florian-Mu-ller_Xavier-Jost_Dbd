@@ -1,3 +1,109 @@
-img {
-  size: 40%;
+body {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 300;
+  max-width: 200vw;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+  font-weight: 600;
+}
+
+.Boutons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Boutons_1 {
+  font-weight: 700;
+}
+
+.Boutons_1_Survive {
+  background-image: url(Images/Healthy.png);
+  background-repeat: no-repeat;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  color: white;
+  margin: 40px;
+  background-color: rgb(124, 199, 245);
+  border-radius: 10px;
+  padding: 40px;
+  padding-left: 130px;
+}
+
+.Boutons_1_Kill {
+  background-image: url(Images/Healthy.png);
+  background-repeat: no-repeat;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  background-color: rgb(254, 62, 62);
+  border-radius: 10px;
+  padding: 40px;
+  padding-left: 130px;
+}
+.Personnage {
+  margin-left: 50%;
+  display: inline-block;
+  flex-direction: row;
+  background: linear-gradient(white, red);
+}
+
+#Imposter {
+  width: 250px;
+  height: 250px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Pouvoir {
+  margin-left: 50%;
+  display: inline-block;
+  flex-direction: row;
+  background: linear-gradient(white, red);
+}
+
+#Pouvoir_logo {
+  width: 250px;
+  height: 250px;
+}
+
+.PC_Console {
+  background-color: black;
+}
+
+.Img_Con {
+  width: 100px;
+  height: 100px;
+}
+
+.Réseaux {
+  background-color: black;
+}
+
+.Img_Soc {
+  width: 100px;
+  height: 100px;
+}
+
+.Titrage_Footer {
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.Alignement_Foot {
+  display: flex;
+  justify-content: center;
+}
+.Alignement_Desc {
+  display: inline-block;
+  flex-direction: row;
 }
