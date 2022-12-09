@@ -10,13 +10,19 @@
       href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700&family=Bree+Serif&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
     <title>Dead by daylight</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-------------------Menu---------------------------->
     <nav class="Menu">
-      <img src="Images/DBD_Logo.png" alt="DBD_Logo" />
+      <img class="DBD_Logo" src="Images/DBD_Logo.png" alt="DBD_Logo" />
       <li>Among us</li>
       <li>Personnage</li>
       <li>Pouvoir</li>
@@ -24,18 +30,22 @@
       <li>Plateformes</li>
     </nav>
     <!-------------Galerie d'image--------------------->
-    <section></section>
+    <section>
+      <script src="Galerie.js"></script>
+    </section>
     <!----------Boutons "Jouer" et “Regarder trailer“-->
     <div class="Boutons">
       <h2 class="Boutons_1_Survive">Jouer Chapitre</h2>
       <h2 class="Boutons_1_Kill">Regarder Bande annonce</h2>
+      <script src="boutons-state.js"></script>
     </div>
     <!-------------Histoire personnage----------------->
     <section class="Personnage">
       <div class="Alignement_Desc">
         <img id="Imposter" src="Images/Imposter.png" alt="Imposter" />
         <div class="text">
-          <h2>L'imposteur</h2>
+          <h2 class="AU">L'IMPOSTEUR</h2>
+          <img src="Images/Difficulty.png" alt="Difficulty" />
           <p>
             Il faut se méfier de qui on a en face de nous, il y a un imposteur
             parmis nous. <br />
@@ -53,20 +63,37 @@
     </section>
     <!-------------Description pouvoir----------------->
     <section class="Pouvoir">
-      <img id="Pouvoir_logo" src="Images/Power.png" alt="Power" />
-      <div class="text">
-        <h2>Transformation</h2>
-        <p>
-          Infiltrez-vous parmis vos proies,<br />
-          Et surprenez-les dans leur plus base instinct.
-        </p>
+      <div class="Alignement_Desc">
+        <img id="Pouvoir_logo" src="Images/Power.png" alt="Power" />
+        <div class="text">
+          <h2 class="AU">TRANSFORMATION</h2>
+          <p>
+            Infiltrez-vous parmis vos proies,<br />
+            Et surprenez-les dans leur plus base instinct. <br />
+            <br />
+            Prenez l'apparence d'un des survivants de la partie pour pouvoir
+            <br />
+            vous dissimuler parmis eux, et de les attaquer au moment opportun.
+          </p>
+        </div>
       </div>
     </section>
     <!-------------------Carte------------------------->
     <section class="Map">
-      <h2>Station Polus</h2>
-      <img src="" alt="" />
-      <p></p>
+      <div class="text-map">
+        <h2 class="AU">Station Polus</h2>
+        <p>
+          Un centre qui devait accueillir autrefois les chercheurs dans le
+          minage de ressources précieuses. <br />
+          Le site fût déclaré abandonné suite au silence radio lugubre qui règne
+          dorénavant.
+        </p>
+        <img
+          class="Polus"
+          src="Images/Map/map dbdl among us final 1.png"
+          alt="Polus"
+        />
+      </div>
     </section>
     <!----------------Plateformes---------------------->
     <section class="PC_Console">
@@ -119,6 +146,7 @@
         <img class="Img_Soc" src="Images/Instagram.png" alt="Instagram" />
       </div>
     </section>
+    <script src="scroll.js"></script>
   </body>
   <script src="Galerie.js"></script>
 </html>

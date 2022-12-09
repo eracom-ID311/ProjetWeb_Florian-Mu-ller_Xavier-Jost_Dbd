@@ -2,15 +2,32 @@ body {
   font-family: "Alexandria", sans-serif;
   font-weight: 300;
   max-width: 200vw;
+  background-color: grey;
+}
+.DBD_Logo {
+  height: 20%;
+  width: 20%;
+  margin-left: 50px;
 }
 
 h2 {
   font-weight: 500;
 }
 
+.AU {
+  font-family: "Zen Dots", cursive;
+  font-size: 3rem;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
 li {
   list-style: none;
+  display: inline-block;
   font-weight: 600;
+  padding: 20px;
 }
 
 .Boutons {
@@ -47,31 +64,56 @@ li {
   padding-left: 130px;
 }
 .Personnage {
-  margin-left: 50%;
-  display: inline-block;
-  flex-direction: row;
-  background: linear-gradient(white, red);
+  background: linear-gradient(#a51614, rgb(27, 27, 59));
 }
 
 #Imposter {
-  width: 250px;
-  height: 250px;
+  width: 40%;
+  height: auto;
+  margin-right: 50px;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .text {
+  background-color: #aa1a18;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 4rem;
+  margin: 4rem;
+}
+.text-map {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 .Pouvoir {
-  margin-left: 50%;
-  display: inline-block;
-  flex-direction: row;
-  background: linear-gradient(white, red);
+  background: linear-gradient(rgb(27, 27, 59), #a51614);
+  padding-top: 6rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 #Pouvoir_logo {
   width: 250px;
   height: 250px;
+  margin: 4rem;
+}
+
+.Map {
+  background: linear-gradient(rgb(27, 27, 59), grey);
+  display: flex;
+  justify-content: center;
+}
+
+.Polus {
+  height: 80vh;
+  width: auto;
+  display: inline-block;
 }
 
 .PC_Console {
@@ -104,6 +146,7 @@ li {
   justify-content: center;
 }
 .Alignement_Desc {
-  display: inline-block;
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  width: auto;
 }
