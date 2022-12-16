@@ -21,24 +21,43 @@
   </head>
   <body>
     <!-------------------Menu---------------------------->
-    <nav class="Menu">
-      <img class="DBD_Logo" src="Images/DBD_Logo.png" alt="DBD_Logo" />
-      <li>Among us</li>
-      <li>Personnage</li>
-      <li>Pouvoir</li>
-      <li>Map</li>
-      <li>Plateformes</li>
-    </nav>
+
     <!-------------Galerie d'image--------------------->
-    <section>
-      <script src="Galerie.js"></script>
+    <section class="Slider">
+      <nav class="Menu">
+        <img class="DBD_Logo" src="Images/DBD_Logo.png" alt="DBD_Logo" />
+        <a href=""><li>Among us</li></a>
+        <a href=""><li>Personnage</li></a>
+        <a href=""><li>Pouvoir</li></a>
+        <a href=""><li>Map</li></a>
+        <a href=""> <li>Plateformes</li></a>
+      </nav>
+      <main>
+        <a href="#" class="toggle-nav"></a>
+        <div id="menu-burger">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </main>
+      <div class="flèches">
+        <img class="prev" src="Images/prev.png" alt="Previous Slide" />
+
+        <img class="next" src="Images/next.png" alt="Next Slide" />
+      </div>
+      <div class="Play_Watch">
+        <!----------Boutons "Jouer" et “Regarder trailer“-->
+        <div class="Boutons">
+          <a href=""><h2 class="Boutons_1_Survive">Jouer Chapitre</h2></a>
+        </div>
+        <div class="Boutons">
+          <a href=""><h2 class="Boutons_1_Kill">Regarder Bande annonce</h2></a>
+        </div>
+      </div>
     </section>
-    <!----------Boutons "Jouer" et “Regarder trailer“-->
-    <div class="Boutons">
-      <h2 class="Boutons_1_Survive">Jouer Chapitre</h2>
-      <h2 class="Boutons_1_Kill">Regarder Bande annonce</h2>
-      <script src="boutons-state.js"></script>
-    </div>
+
+    <script src="boutons-state.js"></script>
+
     <!-------------Histoire personnage----------------->
     <section class="Personnage">
       <div class="Alignement_Desc">
@@ -99,32 +118,36 @@
     <section class="PC_Console">
       <h2 class="Titrage_Footer">Disponible sur</h2>
       <div class="Alignement_Foot">
-        <img
-          class="Img_Con"
-          src="Images/Steam_icon_logo.svg.png"
-          alt="Steam_icon_logo"
-        />
-        <img
-          class="Img_Con"
-          src="Images/Epic_games_store_logo.svg"
-          alt="Epic_games_store_logo"
-        />
-        <img
-          class="Img_Con"
-          src="Images/Microsoft_Store_2021_Light.png"
-          alt="Microsoft_Store_2021_Light"
-        />
-        <img
-          class="Img_Con"
-          src="Images/PlayStation_4_logo_and_wordmark.svg.png"
-          alt="PlayStation_4_logo_and_wordmark"
-        />
-        <img class="Img_Con" src="Images/Xbox.png" alt="Xbox2" />
-        <img
-          class="Img_Con"
-          src="Images/Nintendo_switch_logo.png"
-          alt="Nintendo_switch_logo"
-        />
+        <div class="Img_Con">
+          <img src="Images/steam100x100.png" alt="Steam_icon_logo" />
+        </div>
+        <div class="Img_Con">
+          <img
+            src="Images/epicgamesstore100x100.png"
+            alt="Epic_games_store_logo"
+          />
+        </div>
+        <div class="Img_Con">
+          <img
+            src="Images/microsoftstore100x100.png"
+            alt="Microsoft_Store_2021_Light"
+          />
+        </div>
+        <div class="Img_Con">
+          <img
+            src="Images/playstation100x100.png"
+            alt="PlayStation_4_logo_and_wordmark"
+          />
+        </div>
+        <div class="Img_Con">
+          <img src="Images/xbox100x100.png" alt="Xbox2" />
+        </div>
+        <div class="Img_Con">
+          <img
+            src="Images/nintendoswitch100x100.png"
+            alt="Nintendo_switch_logo"
+          />
+        </div>
       </div>
     </section>
     <!--------------Réseaux sociaux-------------------->
@@ -133,20 +156,25 @@
       <div class="Alignement_Foot">
         <img
           class="Img_Soc"
-          src="Images/Twitter-logo-png.png"
+          src="Images/twitter100x100.png"
           alt="Twitter-logo-png"
         />
         <img
           class="Img_Soc"
-          src="Images/Facebook_Logo_(2019).png - copie.png"
+          src="Images/facebook100x100.png"
           alt="Facebook_Logo_"
         />
-        <img class="Img_Soc" src="Images/youtube-logo-hd-8.png" alt="Youtube" />
-        <img class="Img_Soc" src="Images/Twitch.png" alt="Twitch" />
-        <img class="Img_Soc" src="Images/Instagram.png" alt="Instagram" />
+        <img class="Img_Soc" src="Images/youtube100x100.png" alt="Youtube" />
+        <img class="Img_Soc" src="Images/twitch100x100.png" alt="Twitch" />
+        <img
+          class="Img_Soc"
+          src="Images/instagram100x100.png"
+          alt="Instagram"
+        />
       </div>
     </section>
+    <!-- <script src="burger_menu.js"></script>-->
     <script src="scroll.js"></script>
+    <script src="Galerie.js"></script>
   </body>
-  <script src="Galerie.js"></script>
 </html>

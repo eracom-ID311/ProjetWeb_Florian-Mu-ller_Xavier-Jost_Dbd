@@ -2,6 +2,7 @@ var pageNumber = 0;
 
 const nextButton = document.querySelector(".next");
 const previousButton = document.querySelector(".prev");
+const sliderVar = document.querySelector(".Slider");
 
 const body = document.querySelector("body");
 const text = document.querySelector("h1");
@@ -38,7 +39,7 @@ document.addEventListener("keyup", function (event) {
 
 const next = function () {
   pageNumber = pageNumber + 1;
-  if (pageNumber >= 4) {
+  if (pageNumber >= 5) {
     pageNumber = 0;
   }
   updateText();
@@ -47,15 +48,16 @@ const next = function () {
 const previous = function () {
   pageNumber = pageNumber - 1;
   if (pageNumber < 0) {
-    pageNumber = 3;
+    pageNumber = 4;
   }
   updateText();
 };
 
 const updateText = function () {
-  text.innerHTML = content[pageNumber].text;
-  body.style.backgroundColor = content[pageNumber].background;
-  body.style.backgroundImage = content[pageNumber].backgroundImage;
+  console.log("update");
+  //text.innerHTML = content[pageNumber].text;
+  sliderVar.style.backgroundImage = content[pageNumber].backgroundImage;
+  sliderVar.style.backgroundColor = "#000000";
 };
 
 updateText();
