@@ -37,6 +37,16 @@ document.addEventListener("keyup", function (event) {
   }
 });
 
+// Pour cliquer sur la flèche avec la souris (Droite)
+nextButton.addEventListener("click", function (event) {
+  next();
+});
+
+// Pour cliquer sur la flèche avec la souris (Gauche)
+previousButton.addEventListener("click", function (event) {
+  previous();
+});
+
 const next = function () {
   pageNumber = pageNumber + 1;
   if (pageNumber >= 5) {

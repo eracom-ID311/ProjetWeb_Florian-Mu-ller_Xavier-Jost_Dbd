@@ -10,6 +10,10 @@ body {
   margin-left: 50px;
   padding-top: 30px;
 }
+nav {
+  background-color: black;
+  opacity: 0.5;
+}
 
 h2 {
   font-weight: 500;
@@ -99,6 +103,7 @@ li {
   font-weight: 600;
   padding: 20px;
 }
+
 .Play_Watch {
   display: flex;
   align-items: center;
