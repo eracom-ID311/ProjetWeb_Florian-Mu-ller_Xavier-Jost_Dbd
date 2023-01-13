@@ -3,6 +3,10 @@ body {
   font-weight: 300;
   max-width: 200vw;
   background-color: grey;
+  overflow-x: hidden;
+}
+.logo {
+  background-color: black;
 }
 .DBD_Logo {
   height: 20%;
@@ -13,6 +17,10 @@ body {
 nav {
   background-color: black;
   opacity: 0.5;
+  color: white;
+}
+.menu {
+  color: white;
 }
 
 h2 {
@@ -22,6 +30,27 @@ h2 {
 .AU {
   font-family: "Zen Dots", cursive;
   font-size: 3rem;
+}
+
+/* Scroll*/
+figure {
+  position: relative;
+  right: 60%;
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+.Scroll2 {
+  position: relative;
+  left: 60%;
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+.Scroll3 {
+  position: relative;
+  right: 60%;
+  opacity: 0;
+  transition: all 1.5s ease;
 }
 
 /* Burger menu*/
@@ -123,9 +152,10 @@ li {
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all 0.5s ease-in-out;
 }
 
-.Boutons {
+.boutons {
   display: inline-block;
 }
 

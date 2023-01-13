@@ -22,15 +22,16 @@
   <body>
     <!-------------------Menu---------------------------->
 
-    <!-------------Galerie d'image--------------------->
     <section class="Slider">
       <nav class="Menu">
-        <img class="DBD_Logo" src="Images/DBD_Logo.png" alt="DBD_Logo" />
-        <a href=""><li>Among us</li></a>
-        <a href=""><li>Personnage</li></a>
-        <a href=""><li>Pouvoir</li></a>
-        <a href=""><li>Map</li></a>
-        <a href=""> <li>Plateformes</li></a>
+        <a href=""
+          ><img class="DBD_Logo" src="Images/DBD_Logo.png" alt="DBD_Logo"
+        /></a>
+        <li><a href="">Among us</a></li>
+        <li><a href="">Personnage</a></li>
+        <li><a href="">Pouvoir</a></li>
+        <li><a href="">Map</a></li>
+        <li><a href="">Plateformes</a></li>
       </nav>
       <main>
         <a href="#" class="toggle-nav"></a>
@@ -40,6 +41,7 @@
           <div class="bar3"></div>
         </div>
       </main>
+      <!-------------Galerie d'image--------------------->
       <div class="flèches">
         <img class="prev" src="Images/prev.png" alt="Previous Slide" />
 
@@ -47,73 +49,82 @@
       </div>
       <div class="Play_Watch">
         <!----------Boutons "Jouer" et “Regarder trailer“-->
-        <div class="Boutons">
+        <div class="boutons">
           <a href=""><h2 class="Boutons_1_Survive">Jouer Chapitre</h2></a>
         </div>
-        <div class="Boutons">
+        <div class="boutons">
           <a href=""><h2 class="Boutons_1_Kill">Regarder Bande annonce</h2></a>
         </div>
       </div>
     </section>
 
-    <script src="boutons-state.js"></script>
-
     <!-------------Histoire personnage----------------->
     <section class="Personnage">
+      <figure>
       <div class="Alignement_Desc">
-        <img id="Imposter" src="Images/Imposter.png" alt="Imposter" />
-        <div class="text">
-          <h2 class="AU">L'IMPOSTEUR</h2>
-          <img src="Images/Difficulty.png" alt="Difficulty" />
-          <p>
-            Il faut se méfier de qui on a en face de nous, il y a un imposteur
-            parmis nous. <br />
-            Après avoir réalisé un bain de sang des occupants de la statino
-            Skeld,<br />
-            une brume épaisse et froide enveloppe l'imposteur dans l'obscurité.
-            <br />
-            à son réveil, de l'herbe, des arbres, et un vent froid effleure sa
-            combinaison. <br />
-            Une faim commence à ronger l'imposteur, il a repéré ses prochaines
-            victimes.
-          </p>
-        </div>
+          <img id="Imposter" src="Images/Imposter.png" alt="Imposter" />
+          <div class="text">
+            <h2 class="AU">L'IMPOSTEUR</h2>
+            <img src="Images/Difficulty.png" alt="Difficulty" />
+            <p>
+              Il faut se méfier de qui on a en face de nous, il y a un imposteur
+              parmis nous. <br />
+              Après avoir réalisé un bain de sang des occupants de la statino
+              Skeld,<br />
+              une brume épaisse et froide enveloppe l'imposteur dans
+              l'obscurité.
+              <br />
+              à son réveil, de l'herbe, des arbres, et un vent froid effleure sa
+              combinaison. <br />
+              Une faim commence à ronger l'imposteur, il a repéré ses prochaines
+              victimes.
+            </p>
+          </div>
+        </figure>
       </div>
     </section>
     <!-------------Description pouvoir----------------->
+
     <section class="Pouvoir">
-      <div class="Alignement_Desc">
-        <img id="Pouvoir_logo" src="Images/Power.png" alt="Power" />
-        <div class="text">
-          <h2 class="AU">TRANSFORMATION</h2>
-          <p>
-            Infiltrez-vous parmis vos proies,<br />
-            Et surprenez-les dans leur plus base instinct. <br />
-            <br />
-            Prenez l'apparence d'un des survivants de la partie pour pouvoir
-            <br />
-            vous dissimuler parmis eux, et de les attaquer au moment opportun.
-          </p>
+      <figure class="Scroll2">
+        <div class="Alignement_Desc">
+          <img id="Pouvoir_logo" src="Images/Power.png" alt="Power" />
+          <div class="text">
+            <h2 class="AU">TRANSFORMATION</h2>
+            <p>
+              Infiltrez-vous parmis vos proies,<br />
+              Et surprenez-les dans leur plus base instinct. <br />
+              <br />
+              Prenez l'apparence d'un des survivants de la partie pour pouvoir
+              <br />
+              vous dissimuler parmis eux, et de les attaquer au moment opportun.
+            </p>
+          </div>
         </div>
-      </div>
+      </figure>
     </section>
+
     <!-------------------Carte------------------------->
-    <section class="Map">
-      <div class="text-map">
-        <h2 class="AU">Station Polus</h2>
-        <p>
-          Un centre qui devait accueillir autrefois les chercheurs dans le
-          minage de ressources précieuses. <br />
-          Le site fût déclaré abandonné suite au silence radio lugubre qui règne
-          dorénavant.
-        </p>
-        <img
-          class="Polus"
-          src="Images/Map/map dbdl among us final 1.png"
-          alt="Polus"
-        />
-      </div>
-    </section>
+  
+      <section class="Map">
+        <figure class="Scroll3">
+        <div class="text-map">
+          <h2 class="AU">Station Polus</h2>
+          <p>
+            Un centre qui devait accueillir autrefois les chercheurs dans le
+            minage de ressources précieuses. <br />
+            Le site fût déclaré abandonné suite au silence radio lugubre qui
+            règne dorénavant.
+          </p>
+          <img
+            class="Polus"
+            src="Images/Map/map dbdl among us final 1.png"
+            alt="Polus"
+          />
+        </div>
+      </figure>
+      </section>
+    
     <!----------------Plateformes---------------------->
     <section class="PC_Console">
       <h2 class="Titrage_Footer">Disponible sur</h2>
@@ -174,7 +185,8 @@
       </div>
     </section>
     <!-- <script src="burger_menu.js"></script>-->
-    <script src="scroll.js"></script>
+    <script src="scroll1.js"></script>
     <script src="Galerie.js"></script>
+    <script src="boutons-state.js"></script>
   </body>
 </html>
