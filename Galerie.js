@@ -25,18 +25,6 @@ const content = [
   },
 ];
 
-document.addEventListener("keyup", function (event) {
-  if (event.key == "ArrowRight") {
-    next();
-  }
-});
-
-document.addEventListener("keyup", function (event) {
-  if (event.key == "ArrowLeft") {
-    previous();
-  }
-});
-
 // Pour cliquer sur la flèche avec la souris (Droite)
 nextButton.addEventListener("click", function (event) {
   next();

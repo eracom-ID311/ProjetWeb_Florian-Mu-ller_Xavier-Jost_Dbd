@@ -8,9 +8,7 @@ window.addEventListener("scroll", function () {
 
   val = scrolled * 0.5;
 
-  if (val >= 230) {
-    Personnage.style.opacity = 0;
-  } else {
-    Personnage.style.opacity = 1;
-  }
+  if (val >= 900) {
+    Personnage.style.opacity = "1";
+ 
 });
