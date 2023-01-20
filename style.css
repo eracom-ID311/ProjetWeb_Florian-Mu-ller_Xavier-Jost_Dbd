@@ -186,8 +186,11 @@ li {
   padding: 40px;
   padding-left: 130px;
 }
+
 .Personnage {
   background: linear-gradient(#a51614, rgb(27, 27, 59));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #Imposter {
@@ -216,9 +219,8 @@ li {
 }
 .Pouvoir {
   background: linear-gradient(rgb(27, 27, 59), #a51614);
+  padding-bottom: 1rem;
   padding-top: 6rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
 #Pouvoir_logo {
@@ -269,8 +271,10 @@ li {
   justify-content: center;
   padding-left: 20px;
 }
+
 .Alignement_Desc {
   display: flex;
   justify-content: center;
   width: auto;
+  padding-bottom: 1rem;
 }
